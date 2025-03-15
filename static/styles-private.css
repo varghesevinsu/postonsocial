@@ -1,0 +1,98 @@
+.container-fluid {
+    padding-left: 0px;
+}
+
+.topbar {
+    background-color: var(--primary-color);
+    box-shadow: 0px 8px 16px -4px rgba(128, 128, 128, 0.2);
+    padding: 8px 15px;
+    margin-bottom: 1rem;
+}
+
+.sidebar {}
+
+.main-content {
+    padding-left: 0;
+}
+
+.private.navbar {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: black;
+    box-shadow: 0px 8px 16px -4px rgba(128, 128, 128, 0.2);
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.private .logo-img {
+    align-self: flex-start;
+    margin: 0px;
+    width: 100%;
+}
+
+.private .logo {
+    font-size: 3rem;
+    text-decoration: none;
+    color: white;
+}
+
+.private.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    font-size: 1rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+.private.navbar a span {
+    display: block;
+    font-size: 10px;
+}
+
+.private .navbar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    flex-direction: column;
+    align-items: start;
+}
+
+.private.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.private.navbar a.active {
+    background-color: #ddd;
+    color: black;
+}
+
+.private.navbar a img {
+    width: 50px;
+}
+
+.form-check-input {
+    width: auto;
+}
+
+.table-container {
+    max-height: 300px;
+    /* Adjust the height as needed */
+    overflow-y: auto;
+}
+
+.table thead th {
+    position: sticky;
+    top: 0;
+    background: #ddd;
+    /* Ensure the header has a background */
+    z-index: 10;
+    /* Ensure the header stays above the table body */
+}

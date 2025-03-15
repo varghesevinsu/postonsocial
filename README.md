@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 # Full Stack Flask App Template with Firebase Authentication
@@ -99,3 +100,7 @@ Firebase
 
 
 
+=======
+# postonsocial
+apptopostonsocial
+>>>>>>> 2596e9dd20f4f90ecf63e85b9c9946d9c216cd9c
